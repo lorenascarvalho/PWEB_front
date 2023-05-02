@@ -1,0 +1,51 @@
+.modalBackground {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(40 51 84 / 86%);
+    z-index: 99;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+  
+.modalContainer {
+    width: 500px;
+    height: 450px;
+    border-radius: 12px;
+    background-color: #FAFAFA;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+}
+
+
+.titleCloseBtnFechar {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.titleCloseBtnFechar button {
+    background-color: #121212;
+    border: none;
+    font-size: 25px;
+    cursor: pointer;
+    border-radius: 50px;
+    width: 42px;
+    height: 42px;
+    margin-top: -42px;
+    margin-right: -42px;
+    color: #fff;
+}
+
+button.btn.btn-success {
+    margin-right: 15px !important;
+}
+
+
+.form-check-input[type=radio] {
+    margin-top: 3px !important;
+}

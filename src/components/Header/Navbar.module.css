@@ -1,0 +1,61 @@
+.navbar {
+  display: flex;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px -2px 10px 0px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5em 2em;
+  border-bottom: solid #ffffff 6px;
+  background-image: url(../../assets/background-navbar.jpg);
+  background-position: top left;
+  background-size: cover;
+  color: #fff;
+}
+
+.navbar img {
+  width: 30px;
+  margin-left: 25px;
+  margin-top: -4px;
+}
+
+.brand {
+  font-size: 1.5em;
+}
+
+.brand span {
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.links_list {
+  display: flex;
+  list-style: none;
+  padding: 16px 0px 0px 0px
+}
+
+.links_list li {
+  margin-right: 1em;
+}
+
+.links_list li a {
+  padding: 0.4em 0.6em;
+  font-size: 14px;
+}
+
+.links_list li a:hover {
+  background-color: #00e7ff42;
+  color: #fdfdff !important;
+  border-radius: 7px;
+  padding: 10px;
+}
+
+.botaoSair {
+  color: #fff !important;
+  font-size: 14px !important;
+}
+
+/* .botaoSair:hover {
+  background-color: #00e7ff42;
+  color: #fdfdff !important;
+  border-radius: 7px;
+  padding: 10px;
+} */

@@ -1,0 +1,32 @@
+.btn.btn-success a {
+    color: #fff !important;
+    width: max-content !important;
+    display: block !important;
+    margin-bottom: 20px !important;
+}
+
+.btnEditar {
+    background-color: rgb(255 111 43) !important;
+    border: none;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+span.badge {
+    padding: 6px 17px 4px 17px !important;
+    border-radius: 3px !important;
+}
+
+.botaoNovoChamado {
+    background-color: #198754;
+    color: #fff !important;
+    width: max-content !important;
+    display: block !important;
+    margin-bottom: 20px !important;
+    border-radius: 5px;
+    padding: 5px 16px;
+}
+
+.botaoNovoChamado:hover {
+    background-color: #127446;
+}
